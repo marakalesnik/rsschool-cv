@@ -1,1 +1,108 @@
-CSS default
+* {box-sizing: border-box;
+}
+body { font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #010101c5;
+ }
+
+ html {scroll-behavior: smooth;
+  }
+
+ .header {
+    height: 100px;
+    background-color:#91a3c2;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 5px #91a3c2;
+  }
+
+.nav-list {display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 35px;
+  }
+.nav-link {padding: 0px 45px 0px 0px;
+    line-height: normal;
+    transition: .3s;
+  }
+
+  .section-item a {color: #829985;
+    text-decoration: none;  
+    transition: color 0.5s;
+  }
+
+  .section-item a:hover {color: #4d2323;
+  }
+
+  
+   h2 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #45403c;
+    border-radius: 5px; 
+    box-shadow: 0 0 10px 2px#9b9081;
+    width: 220px;
+    text-align: center;
+    background-color: #c6bcae;
+
+  }
+  
+
+  .my-photo {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+   
+}
+
+.my-photo img {
+    width:100%;
+    height:100%;
+    object-fit: cover;   
+}
+
+.line {
+  width: 100%;
+  height: 5px;
+  background-color: #45403c;
+  margin-top: 20px;
+}
+  .main-container {display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .section { width: 50%;
+  }
+  
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  
+  .main {
+    padding: 30px 160px 60px 160px;
+    background-color: #c4c3c1;
+}
+
+
+.footer {
+    height: 100px;
+    font-size: 16px;
+    background-color:#91a3c2;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 5px #91a3c2;
+   
+  }
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    text-align: center;
+}
